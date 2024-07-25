@@ -1,0 +1,178 @@
+.parallax-container {
+  height: 100vh;
+  background-color: black;
+}
+
+.parallax1 {
+  background-image: url("/public//images//code.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.parallax-content {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+
+.services {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  color: white;
+}
+
+.white-line {
+  background-color: white;
+  height: 2px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-container {
+  height: 360px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  border: 2px solid white;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  background-size: cover;
+  background-image: url("/public//images//web-design.jpg");
+  align-content: center;
+  background-position: center;
+}
+
+.card2 {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid white;
+  height: 300px;
+  width: 300px;
+  font-size: 30px;
+  align-content: center;
+  color: white;
+  margin: 20px;
+  background-size: cover;
+  background-image: url("/public//images//web-app.jpg");
+  background-position: center;
+}
+
+.card3 {
+  text-align: center;
+  padding: 5px;
+  border: 2px solid white;
+  height: 300px;
+  font-size: 30px;
+  width: 300px;
+  align-content: center;
+  color: white;
+  margin: 20px;
+  background-size: cover;
+  background-image: url("/public//images//mobile.jpg");
+  background-position: center;
+}
+
+.service-title1 {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 20px;
+}
+.service-title2 {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 20px;
+}
+.service-title3 {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .services {
+    font-size: 40px;
+  }
+
+  .white-line {
+    width: 100%;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 25px;
+  }
+
+  .carousel-container {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+/* Media query for screen sizes between 400px and 700px */
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .services {
+    font-size: 50px;
+  }
+
+  .white-line {
+    width: 100%;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 200px;
+    height: 200px;
+    /* margin: 10px 0; */
+    font-size: 20px;
+  }
+
+  .carousel-container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .services {
+    font-size: 50px;
+  }
+
+  .white-line {
+    width: 100%;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 200px;
+    height: 200px;
+    /* margin: 10px 0; */
+    font-size: 20px;
+  }
+
+  .carousel-container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+}

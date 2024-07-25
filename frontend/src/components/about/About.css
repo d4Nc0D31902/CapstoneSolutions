@@ -1,0 +1,82 @@
+/* Default styles */
+.about-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.about-us {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.line {
+  background-color: white;
+  height: 2px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.image-box {
+  border: 2px solid white;
+  width: 700px;
+  height: 500px;
+  background-image: url("/public//images//about.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 50px;
+}
+
+.what-we-do {
+  margin-top: 65px;
+  color: white;
+  font-size: 30px;
+  width: 500px;
+  padding-left: 20px;
+}
+
+.description {
+  color: white;
+  max-width: 500px;
+  padding: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  .about-container {
+    background-color: black;
+  }
+
+  .about-content {
+    justify-content: space-between;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .image-box {
+    /* margin-right: 30px;  */
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .what-we-do {
+    width: 400px;
+  }
+
+  .description {
+    max-width: 400px;
+  }
+}
